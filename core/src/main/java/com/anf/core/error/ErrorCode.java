@@ -1,13 +1,5 @@
 package com.anf.core.error;
 
-/**
- * Enum defines all the errors expected from the application. Each enum value
- * has a unique error code, error message and appropriate http status code used
- * for that error.
- * 
- * @author ravkiran
- *
- */
 public enum ErrorCode {
 
     RUNTIME_ERROR("100", "Request encountered an unexpected error", 500), 
