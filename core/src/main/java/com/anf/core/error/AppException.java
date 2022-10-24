@@ -1,10 +1,6 @@
 package com.anf.core.error;
 
-/**
- * Custom exception class for the application.
- * @author ravkiran
- *
- */
+
 public class AppException extends RuntimeException {
 
     private static final long serialVersionUID = -5790688893785545325L;
